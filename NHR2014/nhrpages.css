@@ -1,0 +1,295 @@
+header
+{
+	border:solid 1px white;
+	padding:5px;
+	width:900px;
+	height:50px;
+	margin-bottom:10px;
+	background-color:#1E365C;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+ul
+{
+	margin-top:auto;
+	width:680px;
+	height:30px
+	margin-bottom:10px;
+	margin-top:10px
+	margin-left:auto;
+	padding: auto;
+	display:block;
+	margin-right:auto;
+	list-style:none;
+	float:right;
+	vertical-align:middle;
+}
+
+li a
+{
+	vertical-align:middle;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	display:block;
+	padding:auto;
+}
+
+li
+{
+	width:155px;
+	height: 23px;
+	padding-top:5px;
+	padding-bottom:0;
+	background-color:#ccc;
+	border:outset 3px white;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:16px;
+	text-align:center;
+	color:black;
+	margin-top:7px;
+	margin-bottom:6px;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+li:hover
+{
+	width:155px;
+	padding-top:5px;
+	padding-bottom:0;
+	height: 23px;
+	background-color:#666;
+	color:#FFF;
+	border:inset 3px white;
+	margin-left:auto;
+	text-align:center;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+}
+
+li:hover a
+{
+	color:#FFF;
+	text-decoration:none;
+	vertical-align:middle;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	display:block;
+	margin-bottom:auto;
+}
+
+a:visited, a
+{
+	color:black;
+	text-decoration:none;
+}
+
+.nav img
+{
+	vertical-align:middle;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:2px;
+	margin-bottom:0px;
+	height:40px;
+	width:auto;
+	display:block;
+	float:left;
+	border: solid white 1px;
+}
+
+body
+{
+	font-family:Arial;
+	font-size:16px;
+	color:black;
+	background-color:#666;
+}
+
+footer
+{
+	background-color:#1E365C;
+	font-size:12px;
+	font-weight:lighter;
+	font-variant:small-caps;
+	margin-bottom:10px;
+	border:solid 1px white;
+	padding:5px;
+	text-align:right;
+	color:white;
+	width:898px;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	margin-top:10px;
+}
+
+.selected
+{
+	color:black;
+	font-weight:bold;	
+}
+
+.selected a:hover
+{
+	color:white;
+}
+
+h2
+{
+	color:white;
+	font-variant:small-caps;
+	text-align:center;
+	border-bottom: white solid 5px;
+	padding:5px;
+	margin-top:0px;
+	font-size:36px;
+	background-color:#ccc;
+	margin-left:auto;
+	width:850px;
+	margin-bottom:0px;
+	margin-right:auto;
+}
+
+#divpar
+{
+	color:#1E365C;
+	text-align:justify;
+	padding:25px;
+	margin-left:auto;
+	width:800px;
+	background-color:#ccc;
+	margin-right:auto;
+	margin-top:0px;
+	border-top:none;
+}
+
+#total
+{
+	width:896px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:5px;
+	background-color:#ccc;
+	border:solid white 2px;
+}
+
+#individual
+{
+	border:solid 3px white;
+	margin-top:auto;
+	margin-left:auto;
+	margin-right:auto;
+	padding:10px;
+	width:800px;;
+	color:white;
+	text-align:justify;
+	border:1px solid #1E365C;
+}
+
+
+#individuals div
+
+{
+	margin-left:0px;
+	margin-right:auto;
+	color:white;
+	padding:5px;
+	float:left;
+	display:inline;
+	margin-top:5px;
+	font-size:14px;
+	text-align:justify;
+	padding-left:25px;
+}
+
+#individual h3
+{
+	color:white;
+	padding:0px;
+	margin-bottom:0px;
+	margin-top:5px;
+	font-variant:small-caps;	
+}
+
+#individuals img
+{
+	float: right;
+	margin-left:10px;
+	margin-right:5px;
+	margin-top:0px;
+	border:solid #ccc 2px;
+	width:210px;
+	margin-bottom:0px;
+}
+
+#total table
+{
+	border:1px white solid;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+#total th
+{
+	color:white;
+	border:1px outset #1E365C;
+	width:206px;
+	margin:auto;
+	padding:3px;
+	background-color:#1E365C;
+}
+
+#total th:hover
+{
+	color:white;
+	border:1px inset #1E365C;
+	width:206px;
+	margin:auto;
+	padding:3px;
+	background-color:#1E365C;
+}
+
+#total iframe
+{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	width:850px;
+	height:400px;
+	margin-bottom:10px;
+}
+
+#total a, #total a:visited
+{
+	color:white;
+}
+
+#total a:hover
+{
+	text-decoration:underline;
+}
+
+#contacts
+{
+	text-align:left;
+	color:#1E365C;
+	margin-left:auto;
+	margin-right:auto;
+	padding:25px;
+	width:880px;
+	font-size:20px;
+}
+
+#contacts a, #contacts a:visited, #contacts a:hover
+{
+	color:#1E365C;
+}

@@ -1,0 +1,157 @@
+body
+{
+	font-family:Verdana;
+	font-size:16px;
+	color:black;
+	background-color:#666;
+}
+
+img
+{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+
+h2
+{
+	color:white;
+	font-variant:small-caps;
+	background-color:#666;
+	font-size:36px;
+	padding:5px;
+	padding-bottom:10px;
+	padding-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	font-weight:lighter;
+	margin-bottom:0px;
+	margin-top:0px;
+	text-align:center;
+}
+
+h3
+{
+	color:white;
+	font-weight:bold;
+	font-variant:small-caps;
+	background-color:#666;
+	padding:5px;
+	padding-bottom:10px;
+	padding-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:0px;
+	margin-top:1px;
+	text-align:center;
+}
+
+.head
+{
+
+	width:880px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+
+.nav ul
+{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	border:solid white 2px;
+	margin-bottom:10px;
+	width:875px;
+	padding-left:5px;
+	padding-right:5px;
+	height:auto;
+	background-color:#ccc;
+	padding-top:5px;
+	padding-bottom:5px;
+	list-style:none;
+}
+
+
+
+a
+{
+	width:204px;
+	padding:2px;
+	background-color:#1E365C;
+	border:outset 3px white;
+	margin-left:auto;
+	font-weight:bold;
+	font-size:15px;
+	margin-right:auto;
+	text-align:center;
+	color:black;
+	margin-top:3px;
+	margin-bottom:3px;
+	display:inline-block;
+}
+
+a:hover
+{
+	width:204px;
+	padding:2px;
+	background-color:#1E365C;
+	color:94B1b3;
+	border:inset 3px white;
+	margin-left:auto;
+	text-align:center;
+	margin-right:auto;
+	margin-top:3px;
+	margin-bottom:3px;
+}
+
+a li:hover
+{
+	color:white;
+	text-decoration:none;
+}
+
+a:visited, a
+{
+	color:white;
+	text-decoration:none;
+}
+
+footer
+{
+	background-color:#1E365C;
+	font-size:12px;
+	font-weight:lighter;
+	margin-bottom:10px;
+	border:solid 2px white;
+	padding:5px;
+	text-align:right;
+	color:white;
+	width:878px;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	margin-top:auto;
+}
+
+.body
+{
+	background-color:#1E365C;
+	font-size:15px;
+	margin-bottom:0;
+	border:solid 2px white;
+	padding:7px;
+	text-align:justify;
+	color:#333;
+	vertical-align:middle;
+	width:855px;
+	margin-left:auto;
+	padding-left:15px;
+	padding-right:15px;
+	margin-right:auto;
+	height:auto;
+	margin-top:auto;
+	border-bottom:none;
+}
