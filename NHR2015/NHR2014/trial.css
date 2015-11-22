@@ -1,0 +1,190 @@
+header
+{
+	border:solid 1px white;
+	padding:5px;
+	width:900px;
+	margin-bottom:10px;
+	background-color:#94B1b3;
+	margin-left:auto;
+	margin-right:auto;
+}
+ul
+{
+	margin-top:auto;
+	margin-bottom:auto;
+	margin-left:auto;
+	display:block;
+	margin-right:10px;
+	list-style:none;
+	float:right;
+}
+
+li
+{
+	width:155px;
+	padding:2px;
+	padding-bottom:3px;
+	background-color:#ccc;
+	border:outset 3px white;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:14px;
+	text-align:center;
+	color:black;
+	margin-top:3px;
+	margin-bottom:3px;
+	display:inline-block;
+}
+
+li:hover
+{
+	width:155px;
+	padding:2px;
+	background-color:#666;
+	color:#FFF;
+	border:inset 3px white;
+	margin-left:auto;
+	text-align:center;
+	margin-right:auto;
+	margin-top:3px;
+	margin-bottom:3px;
+}
+
+li:hover a
+{
+	color:#FFF;
+	text-decoration:none;
+}
+
+a:visited, a
+{
+	color:black;
+	text-decoration:none;
+}
+
+#nav img
+{
+	vertical-align:middle;
+	margin-left:20px;
+}
+
+body
+{
+	font-family:Verdana;
+	font-size:16px;
+	color:black;
+	background-color:#666;
+}
+
+footer
+{
+	background-color:#94B1b3;
+	font-size:12px;
+	font-weight:lighter;
+	font-variant:small-caps;
+	margin-bottom:10px;
+	border:solid 1px white;
+	padding:5px;
+	text-align:right;
+	color:white;
+	width:898px;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	margin-top:10px;
+}
+
+.selected
+{
+	color:black;
+	font-weight:bold;	
+}
+
+.selected a:hover
+{
+	color:white;
+}
+
+h2
+{
+	color:#666;
+	font-variant:small-caps;
+	text-align:center;
+	border: #94b1b3 double 10px;
+	padding:5px;
+	margin-top:0px;
+	background-color:#ccc;
+	margin-left:auto;
+	width:840px;
+	margin-bottom:0px;
+	margin-right:auto;
+}
+
+#divpar
+{
+	color:#666;
+	text-align:justify;
+	border: #94b1b3 double 10px;
+	padding:25px;
+	margin-left:auto;
+	width:800px;
+	background-color:#ccc;
+	margin-right:auto;
+	margin-top:0px;
+	border-top:none;
+}
+
+#total
+{
+	border:groove white 6px;
+	width:887px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:5px;
+}
+
+#individual
+{
+	border:solid 3px white;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:5px;
+	width:858px;
+	color:white;
+	text-align:justify;
+	border:1px solid #94b1b3;
+}
+
+
+#individuals div
+
+{
+	margin-left:0px;
+	margin-right:auto;
+	color:white;
+	padding:5px;
+	display:inline;
+	margin-top:5px;
+	font-size:14px;
+	text-align:justify;
+	padding-left:25px;
+}
+
+#individual h3
+{
+	color:white;
+	padding:5px;
+	margin-bottom:0px;
+	margin-top:5px;
+	font-variant:small-caps;	
+}
+
+#individuals img
+{
+	float: right;
+}
+
+#individuals p
+{
+}

@@ -1,0 +1,288 @@
+@charset "UTF-8";
+
+*
+{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #36211B;
+}
+
+.home h1
+{
+	font-size:60px;
+	background-color:#D4F4FF;
+	border:ridge #36211c 5px;
+	padding:5px;
+	padding-bottom:1px;
+	text-align:center;
+	vertical-align:middle;
+	margin-left:auto;
+	margin-right:auto;
+	border-bottom:none;
+	margin-bottom:0px;
+	text-shadow:#7795a1 2px 2px;
+	width:720px;
+	margin-top:10px;
+}
+
+.home p
+{
+	background-color:#D4F4FF;
+	font-size:20px;
+	border: ridge #36211c 5px;
+	border-top:none;
+	text-align:center;
+	vertical-align:middle;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	padding:5px;
+	padding-top:0px;
+	padding-bottom:10px;
+	color:#36211c;
+	text-shadow:#7795a1 1px 1px;
+	width:720px;
+}
+
+.home div
+{
+	width:720px;;
+	padding:auto;
+	border:5px ridge #36211c;
+	margin-left:auto;
+	margin-right:auto;
+	color:#36211c;
+	margin-top:20px;
+	margin-bottom:20px;
+	vertical-align:middle;
+	background-color:#D4F4FF;
+}
+
+.home img
+{
+	width: 700px;
+	height: auto;
+	display: block;
+	border: 3px ridge #122514;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 4px;
+	clear: both;
+}
+
+.special p
+{
+	display:block;
+	text-align:justify;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	margin-bottom:5px;
+	height:auto;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:auto;
+	padding-right:auto;
+	border:3px ridge #122514;
+	vertical-align:top;
+	text-shadow:none;
+	width:692px;
+	background-color:#7795A1;
+	color:white;
+}
+
+footer, header
+{
+	width:800px;
+	background-color:#D4F4FF;
+	color:#36211c;
+	border: 5px ridge #122514;
+	font-family:"Monotype Corsiva";
+	padding:5px;
+	margin:5px;
+	margin-top:5px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:right;
+}
+
+.home #menu span, .each #menu span
+{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	width:auto;
+	background-color:transparent;
+	border:none;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#36211C;
+}
+
+.home #menu, .each #menu
+{
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.home #menu ul, .each #menu ul
+{
+	margin: 0px;
+	padding-top:5px;
+	list-style: none;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:transparent;
+	border:none;
+	height:40px;
+	vertical-align:middle;
+	border:none;
+	width:700px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#36211C;
+}
+
+.home #menu ul li, .each #menu ul li
+{
+	background-color: #D4F4FF;
+	position: relative;
+	float: left;
+	border: ridge #122314 3px;
+	margin-left:auto;
+	margin-right:auto;
+	list-style-type: none;
+	height:30px;
+	width:90px;
+}
+
+.home #menu ul li a, .each #menu ul li a
+{
+	font-size: 14px;
+	line-height: 30px;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	display: block;
+	height: 30px;
+	width: 90px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#36211C;
+}
+
+.home #menu ul ul, .each #menu ul ul
+{
+	position: absolute;
+	visibility: hidden;
+	background:none;
+	top: 33px;
+	left:-3.5px;
+	width:90px;
+	border:0px;
+	padding:0px;
+}
+.home #menu ul li ul li a:hover, .each #menu ul li ul li a:hover
+{
+	background-color: #7795A1;
+	color:white;
+}
+
+.home #menu ul li a:hover, .each #menu ul li a:hover
+{
+	background-color: #7795A1;
+	color: white;
+}
+
+.home #menu ul li:hover ul, .each #menu ul li:hover ul
+{
+	visibility: visible;
+}
+
+.home #menu ul li:hover, .each #menu ul li:hover
+{
+	background-color: #7795A1;
+	color: white;
+}
+.home #menu div, .each #menu div
+{
+	text-align: center;
+	vertical-align: middle;
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border:none;
+	background-color:transparent;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#36211C;
+	width:auto;
+}
+
+.each #newone td
+{
+	border: #36211c 2px solid;
+	padding:0px;
+	height:auto;
+	width:auto;
+	margin:0px;
+}
+
+.credits a, .credits a:visited
+{
+	text-decoration:none;
+	font-size:10px;
+}
+
+.each #newone tr
+{
+	margin:0px;
+}
+
+.credits
+{
+	font-size:10px;
+	padding:0px;
+	margin:0px;
+}
+
+.credits a:hover
+{
+	text-decoration:underline;
+}
+
+.each #newone th
+{
+	border: #36211c 2px solid;
+	width:auto;
+	background-color:#D4F4FF;
+}
+
+.each #newone caption
+{
+	border: #36211c 2px solid;
+	font-size: 30px;
+	font-weight: bolder;
+	height: auto;
+	width: auto;
+	background-color:#D4F4FF;
+}
+
+.each #newone
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	vertical-align: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #36211C;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+
+
+
+.each #newone img
+{
+	margin-bottom:0px;
+}
